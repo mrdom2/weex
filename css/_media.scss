@@ -1,0 +1,465 @@
+@media (max-width: 1199px) {
+    .mainscreen {
+        header .row nav a {
+            margin: 0 5px;
+        }
+
+        main .wrap.flex .bottle {
+            left: 245px;
+            top: 34%;
+            width: 30%;
+        }
+    }
+
+    .experts {
+        h1 {
+            width: 55%;
+        }
+
+        .dd {
+            margin-top: -195px;
+        }
+
+        .bx-wrapper .bx-next {
+            right: 135px;
+        }
+
+        .bx-wrapper .bx-prev {
+            left: 690px;
+        }
+    }
+
+    .howtouse {
+        .wrap {
+            padding: 30px;
+
+            .asd .bx-wrapper .bx-controls-direction a {
+                top: 215px;
+            }
+
+            .bx-wrapper .bx-prev {
+                left: 365px;
+            }
+        }
+
+        img.puzo {
+            width: 348px;
+            height: 360px;
+        }
+    }
+
+    .feeds .bx-wrapper {
+        .bx-controls-direction a {
+            top: 90%;
+        }
+
+        .bx-prev {
+            left: 660px;
+        }
+
+        .bx-next {
+            right: 160px;
+        }
+    }
+
+    .lastscreen {
+        main .wrap.flex {
+            .formblock {
+                padding: 25px 25px;
+                width: 360px;
+            }
+
+            .bottle {
+                width: 27%;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .howtouse .wrap .slidemain .wr {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .howtouse .wrap .bx-wrapper {
+        margin-bottom: 60px;
+    }
+
+    .howtouse .wrap .bx-wrapper .bx-controls-direction a {
+        top: 715px;
+    }
+
+    .howtouse .wrap .bx-wrapper .bx-next {
+        right: 220px;
+    }
+
+    .howtouse .wrap .bx-wrapper .bx-prev {
+        left: 220px;
+    }
+
+    .mainscreen header .row {
+        justify-content: space-around;
+
+        button.zakaz {
+            margin-top: 20px;
+        }
+    }
+
+    .mainscreen {
+        padding-top: 155px;
+    }
+
+    .mainscreen main .wrap.flex .bottle {
+        position: initial;
+        width: 48%;
+    }
+
+    .mainscreen main .wrap.flex {
+        justify-content: space-around;
+    }
+
+    .alivecoctail .col1 {
+        margin: 0;
+    }
+
+    .alivecoctail .wrap {
+        width: 370px;
+        margin-left: 65px;
+    }
+
+    .alivecoctail .wrap p {
+        font-size: 18px;
+        margin-bottom: 28px;
+        padding-left: 55px;
+    }
+
+    .sostav {
+        .headers {
+            padding: 0;
+        }
+
+        .flex {
+            margin-top: 20px;
+            justify-content: space-around;
+
+            .bottlewrap {
+                position: initial;
+
+                &::before,
+                &::after {
+                    display: none;
+                }
+            }
+
+            .item:nth-child(1) {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .experts {
+        h1 {
+            width: 100%;
+        }
+
+        .dd {
+            margin-top: 10px;
+        }
+
+        .slide .left {
+            bottom: 0;
+        }
+
+        .bx-wrapper .bx-prev {
+            left: 400px;
+        }
+    }
+
+    .howtouse {
+        .wrap {
+            text-align: center;
+
+            .asd {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .right {
+                    margin-top: 30px;
+                }
+
+                .bx-wrapper .bx-next {
+                    right: 160px;
+                }
+
+                .bx-wrapper .bx-prev {
+                    left: 160px;
+                }
+            }
+        }
+
+        img.puzo {
+            width: 408px;
+            max-width: 100%;
+        }
+    }
+
+    .feeds .slide .wr {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .feeds .slide .wr .left,
+    .feeds .slide .wr .right {
+        width: 85%;
+    }
+
+    .feeds h1 {
+        margin-bottom: 30px;
+    }
+
+    .feeds .bx-wrapper .bx-controls-direction a {
+        top: 100%;
+    }
+
+    .feeds .bx-wrapper .bx-next {
+        right: 240px;
+    }
+
+    .feeds .bx-wrapper .bx-prev {
+        left: 240px;
+    }
+
+    footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feeds {
+        padding: 110px 0 100px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+	.howtouse img.puzo {
+		height: auto;
+	}
+    .howtouse .wrap .bx-wrapper .bx-controls-direction a {
+        top: 103%;
+    }
+
+    .howtouse .wrap .bx-wrapper .bx-next {
+        right: 70px;
+    }
+
+    .howtouse .wrap .bx-wrapper .bx-prev {
+        left: 70px;
+    }
+
+    .howtouse .wrap .slidemain:nth-child(1) .step2img,
+    .howtouse .wrap .slidemain:nth-child(1) .step3img {
+        display: none;
+    }
+
+    .howtouse .wrap .slidemain:nth-child(2) .step3img,
+    .howtouse .wrap .slidemain:nth-child(2) .step1img {
+        display: none;
+    }
+
+    .howtouse .wrap .slidemain:nth-child(3) .step2img,
+    .howtouse .wrap .slidemain:nth-child(3) .step1img {
+        display: none;
+    }
+
+    .alivecoctail .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainscreen main .wrap.flex .formblock .prices .oldprice,
+    .mainscreen main .wrap.flex .formblock .prices .oldprice + .curr,
+    .mainscreen main .wrap.flex .formblock .prices .curr,
+    .mainscreen main .wrap.flex .formblock .prices sup {
+        font-size: 25px;
+    }
+
+    .mainscreen main .wrap.flex .formblock .prices .oldprice + .curr {
+        margin-right: 10px;
+    }
+
+    .mainscreen main .wrap.flex .formblock .prices .newprice {
+        font-size: 40px;
+    }
+
+    .mainscreen main .wrap.flex .formblock form button {
+        height: 93px;
+    }
+
+    .mainscreen header .row {
+        button.zakaz {
+            width: 240px;
+            order: 1;
+            margin-top: 0;
+        }
+
+        .navbar-toggler {
+            order: 2;
+        }
+
+        nav {
+            text-align: center;
+            order: 3;
+            padding: 0 10px;
+        }
+
+        .logo {
+            display: none;
+        }
+    }
+
+    .mainscreen main h1,
+    .alivecoctail h1,
+    .whatisweex .content h1,
+    .experts h1,
+    .feeds h1,
+        {
+        font-size: 33px;
+        text-align: center;
+    }
+
+    .mainscreen main .wrap.flex .bottle {
+        width: 85%;
+        max-width: 250px;
+    }
+
+    .mainscreen main .wrap.flex .formblock {
+        padding: 25px 15px;
+    }
+
+    .whatisweex .content {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .alivecoctail .wrap {
+        max-width: 100%;
+        width: 290px;
+        margin: 40px auto 0;
+    }
+
+    .sostav .flex .bottlewrap img {
+        max-width: 100%;
+    }
+
+    .sostav .footers {
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .experts .slide {
+        flex-direction: column-reverse;
+    }
+
+    .experts .slide .left,
+    .experts .slide .right {
+        width: 90%;
+        margin: auto;
+        max-width: 300px;
+    }
+
+    .experts .bx-wrapper .bx-prev {
+        left: 85px;
+    }
+
+    .experts .bx-wrapper .bx-next {
+        right: 85px;
+    }
+
+    .experts .bx-wrapper .bx-controls-direction a {
+        top: 104%;
+    }
+
+    .howtouse .wrap {
+        padding: 30px 5px;
+        width: 290px;
+        margin: auto;
+    }
+
+    .howtouse .wrap .asd .right {
+        max-width: 100%;
+    }
+
+    .howtouse .wrap .asd .right .stepsimages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .howtouse .wrap .asd .bx-wrapper .bx-controls-direction a {
+        top: 295px;
+    }
+
+    .howtouse .wrap .asd .bx-wrapper .bx-prev,
+    .feeds .bx-wrapper .bx-prev {
+        left: 65px;
+    }
+
+    .howtouse .wrap .asd .bx-wrapper .bx-next,
+    .feeds .bx-wrapper .bx-next {
+        right: 65px;
+    }
+
+    .feeds h1 {
+        br {
+            display: none;
+        }
+    }
+
+    .lastscreen {
+        padding-top: 0;
+        background-position: top center;
+    }
+
+    .lastscreen main .wrap.flex .left {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    footer .row .info {
+        width: 100%;
+    }
+
+    footer .row {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .lastscreen main .wrap.flex .formblock,
+    .mainscreen main .wrap.flex .formblock {
+        width: 290px;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 736px) {}
+
+@media (max-width: 667px) {}
+
+@media (max-width: 640px) {}
+
+@media (max-width: 568px) {}
+
+@media (max-width: 415px) {}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 413px) {}
+
+@media (max-width: 376px) {}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 321px) {}
